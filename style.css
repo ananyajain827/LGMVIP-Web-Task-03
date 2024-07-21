@@ -1,0 +1,136 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.container h1 {
+    text-align: center;
+    color: darkred;
+    letter-spacing: 4px;
+    border: 2px solid;
+    border-style: double;
+    background-color: lightpink;
+    font-family: serif;
+    padding: 5px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    border-radius: 30px;
+}
+
+#registrationForm{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    text-align: center;
+    border: 4px solid darkgoldenrod;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: -11px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.line{
+    height: 1.5px;
+    width: 100%;
+    background-color: #e4d77d;
+    margin-top: 20px;
+}
+
+h2{
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkred;
+    letter-spacing: 4px;
+    border: 2px solid;
+    border-style: double;
+    background-color: lightpink;
+    font-family: serif;
+    padding: 5px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    font-size: 32px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: white;
+    background-color: rgb(172, 44, 44);
+
+}
+
+td {
+    background-color: #fafafa;
+}
